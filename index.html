@@ -18,21 +18,13 @@
 <body>
     <h1><strong>DESKTOP VERSION</strong></h1>
 <!--  <script src="js/scripts.js"></script>-->
-    <script language=javascript>
-<!--
-  
-      // document.addEventListener('DOMContentLoaded', function(){
-
-    var isMobile = window.matchMedia("only screen and (max-width: 640px)");
-
-    if (isMobile.matches) {
-   location.replace("http://maxbittker.github.io/mobileURLtest/mindex.html");
-    }
- // });
-        
--->
-</script>
-    
+ 
+    <script type="text/javascript">
+var ipad = false;               // Set to false to not redirect on iPad.
+var other_tablets = false;  // Set to false to not redirect on other tablets.
+var mobile_domain = 'http://maxbittker.github.io/mobileURLtest/mindex.html';
+document.write(unescape("%3Cscript src='" + location.protocol + "//s3.amazonaws.com/me.static/js/me.redirect.min.js' type='text/javascript'%3E%3C/script%3E"));
+</script>   
     
  
 </body>
